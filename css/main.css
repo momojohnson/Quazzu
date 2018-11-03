@@ -1,0 +1,97 @@
+/* Creation of overlay for developer section */
+
+
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: white;
+}
+
+.main-header-inner{
+  background: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
+  color: white;
+}
+
+.tabs .indicator{
+  background-color: #6a1b9a !important;
+}
+.main-header .showcase {
+  margin-top: 75px;
+}
+
+.main-header-inner .showcase {
+  margin-top: 50px;
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+/* Postioning of picture for develper section */
+.section-developers {
+  position: relative;
+  background: url(../img/code.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast {
+
+  position: relative;
+  background: url(../img/circuit.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: #333 solid 5px;
+  border-bottom: #333 solid 5px;
+  min-height: 160px;
+}
+
+.section-podcast .primary-overlay {
+  background: rgba(112, 81, 176, 0.9)
+}
+
+@media(max-width: 414px) {
+
+  .section-developers,
+  .section-podcast {
+    min-height: 240px;
+  }
+
+  h2{
+    font-size: 2rem !important;
+  }
+  .btn-large{
+    padding: 0 20px 0 20px;
+  }
+
+}
+.carousel-item p{
+  font-size: 23px !important;
+}
+.section-podcast a {
+  margin-top: 30px !important;
+}
+
+.btn-extended {
+  display: block;
+  width: 100%;
+}
